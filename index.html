@@ -1,95 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1,
-  maximum-scale=5"
-    />
 
-    <link rel="icon" href="devchallenges.png" />
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.o" />
 
-    <link
-      rel="shortcut icon"
-      type="image/x-icon"
-      href="https://devchallenges.io/"
-    />
+  <link rel="icon" href="devchallenges.png" />
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
+  <link rel="shortcut icon" type="image/x-icon" href="https://devchallenges.io/" />
+  <title>Devchallenges</title>
 
-    <title>Devchallenges</title>
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@500;700&family=Montserrat:wght@400;500;700&display=swap"
+    rel="stylesheet">
 
-    <style>
-      body {
-        font-family: "Poppins", sans-serif;
-      }
+  <!-- reset css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-      ul {
-        padding-left: 24px;
-      }
+  <!-- styles css -->
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
 
-      li {
-        margin-bottom: 8px;
-      }
-
-      .welcome {
-        max-width: 800px;
-        margin: 0 auto;
-      }
-
-      .welcome-text {
-        margin-top: 30vh;
-        font-weight: 500;
-      }
-
-      .welcome-text p {
-        font-size: 1rem;
-        font-weight: 400;
-      }
-
-      .welcome-text h1 {
-        font-size: 1.5rem;
-      }
-
-      .welcome-text a {
-        color: #f7542e;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="welcome">
-      <div class="welcome-text">
-        <h1>
-          Welcome to
-          <a href="https://devchallenges.io/" target="_blank"
-            >devchallenges.io</a
-          >
-        </h1>
-
-        <p>
-          If you have any questions, don't hesitate to ask on Discord. Here are
-          7 general steps to complete the challenge:
-        </p>
-      </div>
-
-      <ul>
-        <li><b>Step 1:</b> Create a new repository on github</li>
-        <li><b>Step 2:</b> Copy resources, README.md to your repository</li>
-        <li>
-          <b>Step 3:</b> Login to Figma to checkout font, color, spacing,..
-        </li>
-        <li><b>Step 4:</b> Complete all user stories</li>
-        <li><b>Step 5:</b> Update README.md</li>
-        <li><b>Step 6:</b> Deploy your app and submit your solution</li>
-        <li>
-          <b>Step 7:</b> Share your solution on Discord, Twitter and other
-          platforms to ask for feedback
-        </li>
+<body>
+  <header>
+    <section class="logo">
+      <a href="index.html">This Interior</a>
+    </section>
+    <nav id="menu">
+      <ul class="menu">
+        <li class="menu__li"><a class="menu__link">Home</a></li>
+        <li class="menu__li"><a class="menu__link">Collection</a></li>
+        <li class="menu__li"><a class="menu__link">About</a></li>
+        <li class="menu__li"><a class="menu__link">Contact</a></li>
       </ul>
-    </div>
-  </body>
+    </nav>
+    <section id="btn-hamburger" class="hamburger-menu">
+      <span class="hamburger-menu__line"></span>
+      <span class="hamburger-menu__line"></span>
+      <span class="hamburger-menu__line"></span>
+    </section>
+  </header>
+  <main>
+
+    <section class="text-container">
+      <h1>Modern interior</h1>
+      <p>A full-Service residential & commercial interior design and staging company offering professional organizing &
+        eco-services.</p>
+      <button>Read more →</button>
+    </section>
+    <article>
+      <section class="img-container">
+        <img src="./assets/photo1.png" alt="">
+      </section>
+
+      <section class="card">
+        <section class="user-info">
+          <img src="./assets/photo2.png" alt="">
+          <h3>Aliza Webber</h3>
+          <p>Interior designer</p>
+        </section>
+        <h2>
+          Designed in 2020 by Aliza Webber
+        </h2>
+      </section>
+    </article>
+
+    <footer>
+      <h3>created by EAPP93 - devChallenges.io</h3>
+    </footer>
+
+  </main>
+
+  <script defer src="./js/scripts.js"></script>
+</body>
+
 </html>
