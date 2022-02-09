@@ -1,14 +1,16 @@
 const btn = document.querySelector('#btn-hamburger');
-const line = document.querySelectorAll('.hamburger-menu__line');
+const line = document.querySelectorAll('.menu__line');
 const menu = document.querySelector('#menu');
 
+const body = document.body.clientWidth
+
 btn.addEventListener('click', () => {
-
-  btn.classList.toggle('clicked');
-  line.forEach(el => {
-    el.classList.toggle('active');
-  })
-
-  menu.classList.toggle('show');
+  if (body <= "1200") {
+    btn.classList.toggle('clicked');
+    line.forEach(el => {
+      el.classList.toggle('active');
+    })
+    menu.classList.toggle('show');
+  }
 })
 
