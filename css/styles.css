@@ -30,7 +30,7 @@ font-family: 'Montserrat', sans-serif; */
     --shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.75);
 
     .card {
-      border: solid 1px var(--font-color);
+      border: solid 1px var(--font-color-footer);
     }
   }
 }
