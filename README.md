@@ -25,15 +25,23 @@
 ### important
 To use the light/dark mode you have to have your computer or browser configured in dark mode to show this is because the challenge did not require dark mode and I did not want to break the design
 
+
+
 <div style="display: flex; flex-direction:column; gap:0.5rem;">
   <h2>Desktop</h2>
   <div style="display: flex; gap: 0.5rem;">
     <img width="100%" src="./assets/desktop.PNG" />
   </div>
+</div>
+
+<div style="display: flex; flex-direction:column; gap:0.5rem;">
+  <h2>Mobile</h2>
   <div style="display: flex; gap: 0.5rem;">
     <img width="50%" src="./assets/mobile.PNG" />
   </div>
 </div>
+
+
 ### Built With
 
 - HTML
