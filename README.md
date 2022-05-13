@@ -1,5 +1,5 @@
 
-<h1 align="center">{Your project name}</h1>
+<h1 align="center">Interior Consultant</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -24,8 +24,6 @@
 ## Overview
 ### important
 To use the light/dark mode you have to have your computer or browser configured in dark mode to show this is because the challenge did not require dark mode and I did not want to break the design
-
-
 
 <div style="display: flex; flex-direction:column; gap:0.5rem;">
   <h2>Desktop</h2>
